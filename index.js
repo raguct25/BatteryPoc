@@ -1,7 +1,7 @@
 /** @format */
 
 import { AppRegistry } from "react-native";
-import Sample from "./Sample";
+import BatteryProgress from "./BatteryProgress";
 import { name as appName } from "./app.json";
 
-AppRegistry.registerComponent(appName, () => Sample);
+AppRegistry.registerComponent(appName, () => BatteryProgress);
