@@ -44,9 +44,7 @@ export default class Progress extends Component {
             backgroundColor={
               this.state.progress > 20 && this.state.progress < 90
                 ? "yellow"
-                : this.state.progress >= 90
-                  ? "green"
-                  : "red"
+                : this.state.progress >= 90 ? "green" : "red"
             }
           />
           <Image
